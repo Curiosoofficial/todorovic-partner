@@ -53,7 +53,7 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)]  border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
+          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start bg-light-900  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)]  border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
           <div className={cn(" relative z-50 ", className)}>
             {title === "Hausbetreuung" && (
@@ -73,7 +73,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-12 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
+                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
                   Spotify
                 </button>
               </>
@@ -81,7 +81,7 @@ export const PinContainer = ({
 
             {title === "Kommerzielle Reinigung" && (
               <>
-                <Image src="/home.png" alt="house" width={70} height={70} />
+                <Image src="/invoice.png" alt="house" width={70} height={70} />
                 <div className="text-center flex flex-col items-center gap-1">
                   <h3 className="h2-semibold pb-5">{title}</h3>
                   {kommerziellereining.map((item) => (
@@ -96,7 +96,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-12 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
+                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
                   Spotify
                 </button>
               </>
@@ -104,7 +104,7 @@ export const PinContainer = ({
 
             {title === "Spezielle Reinigung" && (
               <>
-                <Image src="/home.png" alt="house" width={70} height={70} />
+                <Image src="/medal.png" alt="house" width={70} height={70} />
                 <div className="text-center flex flex-col items-center gap-1">
                   <h3 className="h2-semibold pb-5">{title}</h3>
                   {speziellereinigung.map((item) => (
@@ -119,7 +119,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-12 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
+                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
                   Spotify
                 </button>
               </>
@@ -146,7 +146,7 @@ export const PinPerspective = ({
           <a
             href={href}
             target={"_blank"}
-            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "
+            className="relative flex space-x-2 items-center z-10 rounded-full bg-primary-500 py-0.5 px-4 ring-1 ring-white/10 "
           >
             <span className="relative z-20 text-white text-xs font-bold inline-block py-0.5">
               {title}
