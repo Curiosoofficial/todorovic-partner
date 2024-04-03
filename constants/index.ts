@@ -31,6 +31,8 @@ export const navLinks: Navlink[] = [
 export const heroImages = [
     '/heroSection/hero1.jpg',
     '/heroSection/hero2.jpg',
+    '/heroSection/hero3.jpg',
+    '/heroSection/hero4.jpg',
 ];
 
 
@@ -45,6 +47,10 @@ export const speziellereinigung = [
 export const kommerziellereining = [
   'Büroflaschen', 'Grundreinigung', 'Fassadenreinigung'
 ];
+
+export const aboutussec = [
+  'Flexible Arbeitszeiten', 'Kurzfristige Terminvereinbarung', 'Angepasste Bedürfnisse', 'Spezialreinigungen', 'Ausgezeichnete - Immer Wieder', '100% Zufriedenheitsgarantie'
+]
 
 
 
