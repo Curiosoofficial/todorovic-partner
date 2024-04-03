@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-7 fixed top-0 z-50 w-full bg-light-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+    <nav className="flex items-center justify-between p-7 fixed top-0 z-50 w-full bg-light-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-50">
       <Link href="/">
         <p className="h1-bold px-">Todorovic<span className="text-primary-500">Partner</span></p>
       </Link>

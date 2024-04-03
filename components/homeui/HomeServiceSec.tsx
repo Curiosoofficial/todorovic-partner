@@ -3,7 +3,7 @@ import { PinContainer } from "../ui/3d-pin";
 
 const HomeServiceSec = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-10 py-24">
+    <section className="flex flex-col justify-center items-center gap-10 pt-24 pb-32">
       <h2 className="h2-bold">Unser Service</h2>
       <p className="max-w-2xl text-center">
         Wir bieten verschiedenste Arten von Reinigungen sowie Dienstleistungen
