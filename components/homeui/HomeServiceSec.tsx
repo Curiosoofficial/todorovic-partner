@@ -4,7 +4,7 @@ import { PinContainer } from "../ui/3d-pin";
 const HomeServiceSec = () => {
   return (
     <section className="flex flex-col justify-center items-center gap-10 pt-24 pb-32">
-      <h2 className="h2-bold">Unser Service</h2>
+      <h2 className="h1-bold">UNSER SERVICE</h2>
       <p className="max-w-2xl text-center">
         Wir bieten verschiedenste Arten von Reinigungen sowie Dienstleistungen
         für Ihre Immobilie an. Ob Sie eine Hausbetreuung oder Winterdienste in

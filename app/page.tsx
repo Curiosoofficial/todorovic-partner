@@ -1,4 +1,4 @@
-import HomeAboutUsSec from "@/components/homeui/HomeAboutUsSec";
+import HomeAboutUsSec1 from "@/components/homeui/HomeAboutUsSec";
 import HomeServiceSec from "@/components/homeui/HomeServiceSec";
 import { ImagesSlider } from "@/components/ui/images-slider";
 import { heroImages } from "@/constants";
@@ -20,7 +20,7 @@ export default function Home() {
 
       <HomeServiceSec />
 
-      <HomeAboutUsSec />
+      <HomeAboutUsSec1 />
     </main>
   );
 }
