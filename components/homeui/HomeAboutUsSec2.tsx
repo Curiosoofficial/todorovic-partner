@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeAboutUsSec2 = () => {
   return (
-    <section className="flex flex-col p-24 h-[600px] justify-center items-start gap-10 bg-primary-500 bg-opacity-10">
+    <section className="flex flex-col p-24 justify-center items-center gap-10">
       <h2 className="h1-bold py-5 text-primary-500">WIE ES FUNKTIONIERT</h2>
       <div className="flex items-start justify-center gap-5">
         <div className="flex flex-col w-[600px] gap-2">

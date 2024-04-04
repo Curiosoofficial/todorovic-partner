@@ -1,7 +1,10 @@
 import HomeAboutUsSec1 from "@/components/homeui/HomeAboutUsSec1";
 import HomeAboutUsSec2 from "@/components/homeui/HomeAboutUsSec2";
+import HomeAboutUsSec3 from "@/components/homeui/HomeAboutUsSec3";
+import HomeAboutUsSec4 from "@/components/homeui/HomeAboutUsSec4";
 import HomeServiceSec from "@/components/homeui/HomeServiceSec";
 import { ImagesSlider } from "@/components/ui/images-slider";
+import Button from "@/components/ui/spotify-button";
 import { heroImages } from "@/constants";
 
 export default function Home() {
@@ -14,15 +17,18 @@ export default function Home() {
       <div className="z-100 flex flex-col justify-center items-center text-light-900 absolute top-[50%] left-0 right-0">
         <p className="base-medium">Professionelle Leistung</p>
         <h1 className="h1-bold py-5">Sauber und Schnell</h1>
-        <button className="medium-base m-2 px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
-          Anfragen
-        </button>
+        <Button/>
       </div>
 
       <HomeServiceSec />
 
       <HomeAboutUsSec1 />
+
       <HomeAboutUsSec2 />
+
+      <HomeAboutUsSec3 />
+      
+      <HomeAboutUsSec4 />
     </main>
   );
 }

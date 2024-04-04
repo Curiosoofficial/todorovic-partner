@@ -165,5 +165,15 @@ code {
 }
 
 .spotify-btn {
+  z-index: 80;
+}
+
+.rating-section {
+  background-image: url("/aboutUsSection/bg1.png");
+  background-position: center;
+  object-fit: cover;
+}
+
+.nav-index {
   z-index: 1000;
 }
