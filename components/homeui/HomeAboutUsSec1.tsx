@@ -9,9 +9,9 @@ const HomeAboutUsSec1 = () => {
     <section>
       <BackgroundGradientAnimation>
         <div className=" pb-16 absolute z-50 inset-0 flex flex-col items-center justify-center text-white font-bold px-4 pointer-events-none text-center overflow-hidden">
-          <p className="bg-clip-text p-2 drop-shadow-2xl h1-bold">
+          <h2 className="bg-clip-text p-2 drop-shadow-2xl h1-bold">
             ÜBER UNSER UNTERNEHMEN
-          </p>
+          </h2>
           <div className="flex flex-col justify-center items-center">
             <p className="base-semibold max-w-[1200px] bg-clip-text p-2  drop-shadow-2xl  ">
               Die Reinigungsplanung kann mühsam sein und wir wissen, dass Sie
@@ -35,7 +35,7 @@ const HomeAboutUsSec1 = () => {
             </div>
           </div>
         </div>
-        <Button className="absolute top-[75%] left-[50%] transform -translate-x-1/2 -translate-y-1/2" />
+        <Button className="absolute top-[78%] left-[50%] transform -translate-x-1/2 -translate-y-1/2" />
       </BackgroundGradientAnimation>
     </section>
   );

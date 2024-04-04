@@ -1,4 +1,5 @@
-import HomeAboutUsSec1 from "@/components/homeui/HomeAboutUsSec";
+import HomeAboutUsSec1 from "@/components/homeui/HomeAboutUsSec1";
+import HomeAboutUsSec2 from "@/components/homeui/HomeAboutUsSec2";
 import HomeServiceSec from "@/components/homeui/HomeServiceSec";
 import { ImagesSlider } from "@/components/ui/images-slider";
 import { heroImages } from "@/constants";
@@ -21,6 +22,7 @@ export default function Home() {
       <HomeServiceSec />
 
       <HomeAboutUsSec1 />
+      <HomeAboutUsSec2 />
     </main>
   );
 }

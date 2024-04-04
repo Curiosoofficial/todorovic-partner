@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     extend: {
+      zIndex: {
+        '100': '100',
+      },
       colors: {
         primary: {
           500: "#20BC0B",
