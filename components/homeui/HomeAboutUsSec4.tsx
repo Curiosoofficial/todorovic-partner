@@ -35,7 +35,9 @@ const testimonials = [
 
 const HomeAboutUsSec4 = () => {
   return (
-    <section className="rating-section rounded-md py-24 flex flex-col antialiased items-center justify-center">
+    <section className="rating-section rounded-md py-24 flex flex-col antialiased items-center justify-center gap-5">
+      <h2 className="h1-bold text-primary-500">EINDRÜCKE UNSERER KUNDEN</h2>
+
       <InfiniteMovingCards
         items={testimonials}
       />
