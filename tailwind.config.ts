@@ -57,8 +57,7 @@ module.exports = {
       },
       backgroundImage: {
         "card-bg" : "url('/cardbg.jpg')",
-        "auth-dark": "url('/assets/images/auth-dark.png')",
-        "auth-light": "url('/assets/images/auth-light.png')",
+        "parallax1" : "url(/parallax/parallax1.jpg)"
       },
       screens: {
         xs: "420px",

@@ -5,7 +5,7 @@ import Button from "../ui/spotify-button";
 
 const HomeAboutUsSec3 = () => {
   return (
-    <section className="flex justify-center items-start gap-10 pb-24">
+    <section className="flex justify-center items-start gap-10 p-24">
       <Image
         src="/aboutUsSection/collage1.png"
         alt="collage"

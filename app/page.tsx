@@ -1,8 +1,10 @@
+import Footer from "@/components/Footer";
 import HomeAboutUsSec1 from "@/components/homeui/HomeAboutUsSec1";
 import HomeAboutUsSec2 from "@/components/homeui/HomeAboutUsSec2";
 import HomeAboutUsSec3 from "@/components/homeui/HomeAboutUsSec3";
 import HomeAboutUsSec4 from "@/components/homeui/HomeAboutUsSec4";
 import HomeServiceSec from "@/components/homeui/HomeServiceSec";
+import ParallaxBanner from "@/components/homeui/ParallaxBanner";
 import { ImagesSlider } from "@/components/ui/images-slider";
 import Button from "@/components/ui/spotify-button";
 import { heroImages } from "@/constants";
@@ -26,9 +28,15 @@ export default function Home() {
 
       <HomeAboutUsSec2 />
 
+      <ParallaxBanner/>
+
       <HomeAboutUsSec3 />
       
       <HomeAboutUsSec4 />
+      
+      <Footer/>
+
     </main>
+
   );
 }

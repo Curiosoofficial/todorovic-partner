@@ -2,29 +2,22 @@ import { Navlink } from "@/types";
 
 export const navLinks: Navlink[] = [
     {
-      imgURL: "/assets/icons/home.svg",
       route: "/",
       label: "Home",
     },
     {
-      imgURL: "/assets/icons/users.svg",
+
       route: "/über-uns",
       label: "Über uns",
     },
     {
-      imgURL: "/assets/icons/star.svg",
       route: "/unser-service",
       label: "Unser Service",
     },
     {
-      imgURL: "/assets/icons/suitcase.svg",
+      
       route: "/kontakt",
       label: "Kontakt",
-    },
-    {
-      imgURL: "/assets/icons/tag.svg",
-      route: "/impressum",
-      label: "Impressum",
     },
   ];
 
@@ -66,6 +59,38 @@ export const benefits = [
   {
     title: "Spezialangebote",
     desc: "Vom Winterdienst, Außenfassade oder Grundreinigungen bis hin zur Gartenpflege bleiben keine Wünsche offen!",
+  },
+];
+
+export const footerInfo = [
+  {
+    label: "footerInfo",
+    adress: "MilanovaUlica 69, Viena 12318",
+    phone: "+43 660 5622209",
+    mail: "todorovic@mail.com",
+    time: "Mo-Fr: 9:00h - 17:00h",
+  },
+ 
+];
+
+export const footerLinks = [
+  {
+    route: "/",
+    label: "Home",
+  },
+  {
+
+    route: "/kontakt",
+    label: "Kontakt",
+  },
+  {
+    route: "/impressum",
+    label: "Impressum",
+  },
+  {
+    
+    route: "/datenschutz",
+    label: "Datenschutz",
   },
 ];
 

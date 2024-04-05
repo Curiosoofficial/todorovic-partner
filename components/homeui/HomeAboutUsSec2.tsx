@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../ui/spotify-button";
 
 const HomeAboutUsSec2 = () => {
   return (
@@ -43,6 +44,7 @@ const HomeAboutUsSec2 = () => {
           </p>
         </div>
       </div>
+      <Button/>
     </section>
   );
 };
