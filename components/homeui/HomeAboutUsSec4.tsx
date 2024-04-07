@@ -2,41 +2,54 @@ import React from 'react'
 import { InfiniteMovingCards } from '../ui/infinite-moving-cards';
 
 const testimonials = [
-    {
-      quote:
-        "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-      name: "Charles Dickens",
-      title: "A Tale of Two Cities",
-    },
-    {
-      quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-      name: "William Shakespeare",
-      title: "Hamlet",
-    },
-    {
-      quote: "All that we see or seem is but a dream within a dream.",
-      name: "Edgar Allan Poe",
-      title: "A Dream Within a Dream",
-    },
-    {
-      quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-      name: "Jane Austen",
-      title: "Pride and Prejudice",
-    },
-    {
-      quote:
-        "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-      name: "Herman Melville",
-      title: "Moby-Dick",
-    },
-  ];
+  {
+    quote:
+      "Die Entrümpelung unseres Hauses verlief reibungslos und professionell. Das Team war äußerst zuverlässig und hat hervorragende Arbeit geleistet. Ich kann ihre Dienste nur empfehlen.",
+    name: "Anna M.",
+    title: "Kundin für Entrümpelungsdienste",
+  },
+  {
+    quote:
+      "Unsere Fenster glänzen wieder! Die Fensterreinigung war schnell und gründlich. Ein großes Lob an das Team für ihre Effizienz und Professionalität.",
+    name: "Thomas S.",
+    title: "Kunde für Fensterreinigung",
+  },
+  {
+    quote: "Der Winterdienst hat uns in den kalten Monaten sehr geholfen. Immer pünktlich und zuverlässig, sogar bei starkem Schneefall. Sehr empfehlenswert!",
+    name: "Julia B.",
+    title: "Kundin für Winterdienste",
+  },
+  {
+    quote:
+      "Unsere Baustelle wurde nach Abschluss der Arbeiten gründlich gereinigt. Das Team hat hart gearbeitet, um sicherzustellen, dass alles makellos aussieht. Danke für die großartige Arbeit!",
+    name: "Michael W.",
+    title: "Kunde für Bauendreinigung",
+  },
+  {
+    quote:
+      "Die Parkhausreinigung wurde sehr professionell durchgeführt. Das Team war schnell, effizient und gründlich. Wir sind mit dem Ergebnis sehr zufrieden.",
+    name: "Sabine M.",
+    title: "Kundin für Parkhausreinigung",
+  },
+  {
+    quote:
+      "Die Grünflächenbetreuung unseres Bürokomplexes ist erstklassig. Das Team kümmert sich liebevoll um jede Pflanze und sorgt dafür, dass unser Gelände immer gepflegt aussieht.",
+    name: "Markus L.",
+    title: "Kunde für Grünflächenbetreuung",
+  },
+  {
+    quote:
+      "Unsere Dachrinnen sind jetzt frei von Schmutz und Laub dank der Dachrinnenreinigung. Das Team war professionell und hat einen großartigen Job gemacht.",
+    name: "Petra F.",
+    title: "Kundin für Dachrinnenreinigung",
+  },
+];
+
 
 const HomeAboutUsSec4 = () => {
   return (
     <section className="rating-section rounded-md py-24 flex flex-col antialiased items-center justify-center gap-5">
-      <h2 className="h1-bold text-primary-500">EINDRÜCKE UNSERER KUNDEN</h2>
+      <h2 className="h1-bold text-primary-500 max-sm:h2-bold max-sm:text-center">EINDRÜCKE UNSERER KUNDEN</h2>
 
       <InfiniteMovingCards
         items={testimonials}

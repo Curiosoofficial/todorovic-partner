@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: 'Todorovic-Partner',
   description: 'test',
   icons: {
-    icon: ''
+    icon: 'favicon.ico'
   }
 }
 
