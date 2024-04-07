@@ -8,6 +8,7 @@ import {
   kommerziellereining,
   speziellereinigung,
 } from "@/constants";
+import Button from "./spotify-button";
 
 export const PinContainer = ({
   children,
@@ -73,9 +74,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
-                  Spotify
-                </button>
+                <Button/>
               </>
             )}
 
@@ -96,9 +95,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
-                  Spotify
-                </button>
+                <Button/>
               </>
             )}
 
@@ -119,9 +116,7 @@ export const PinContainer = ({
                     </span>
                   ))}
                 </div>
-                <button className="px-10 py-3 rounded-full bg-primary-500 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
-                  Spotify
-                </button>
+                <Button/>
               </>
             )}
           </div>
