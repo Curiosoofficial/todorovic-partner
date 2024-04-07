@@ -25,6 +25,8 @@ module.exports = {
         primary: {
           500: "#20BC0B",
           100: "#FFF1E6",
+          1 : "#4b5b68",
+          2 : "#677d8f"
         },
         dark: {
           100: "#000000",
@@ -32,6 +34,7 @@ module.exports = {
           300: "#151821",
           400: "#212734",
           500: "#101012",
+
         },
         light: {
           900: "#FFFFFF",
@@ -57,7 +60,8 @@ module.exports = {
       },
       backgroundImage: {
         "card-bg" : "url('/cardbg.jpg')",
-        "parallax1" : "url(/parallax/parallax1.jpg)"
+        "parallax1" : "url(/parallax/parallax1.jpg)",
+        "bg2" : "url(/aboutUsSection/bg2.png)"
       },
       screens: {
         xs: "420px",

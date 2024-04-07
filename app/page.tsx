@@ -17,8 +17,8 @@ export default function Home() {
       </ImagesSlider>
 
       <div className="z-100 flex flex-col justify-center items-center text-light-900 absolute top-[50%] left-0 right-0">
-        <p className="h2-semibold">Professionelle Leistung</p>
-        <h1 className="hero-bold pt-5 pb-7">Sauber und Schnell</h1>
+        <p className="h2-semibold max-sm:h3-semibold">Professionelle Leistung</p>
+        <h1 className="hero-bold pt-5 pb-7 max-sm:h2-bold max-md:h2-bold">Sauber und Schnell</h1>
         <Button/>
       </div>
 

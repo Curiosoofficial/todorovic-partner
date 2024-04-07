@@ -171,9 +171,14 @@ code {
 .rating-section {
   background-image: url("/aboutUsSection/bg1.png");
   background-position: center;
-  object-fit: cover;
 }
 
 .nav-index {
   z-index: 1000;
+}
+
+.card-section {
+  background-image: url("/aboutUsSection/bg2.png");
+  background-position: center;
+  background-size: cover;
 }
