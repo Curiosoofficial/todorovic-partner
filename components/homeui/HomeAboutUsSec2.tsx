@@ -3,11 +3,11 @@ import Button from "../ui/spotify-button";
 
 const HomeAboutUsSec2 = () => {
   return (
-    <section className="flex flex-col p-24 justify-center items-center gap-10">
-      <h2 className="h1-bold py-5 text-primary-500">WIE ES FUNKTIONIERT</h2>
-      <div className="flex items-start justify-center gap-5">
-        <div className="flex flex-col w-[600px] gap-2">
-          <h3 className="h2-bold">Wie der Ablauf stattfindet</h3>
+    <section className="flex flex-col p-24 justify-center items-center gap-10 max-sm:text-center">
+      <h2 className="h1-bold py-5 text-primary-500 max-sm:h2-bold">WIE ES FUNKTIONIERT</h2>
+      <div className="flex items-start justify-center gap-5 max-lg:flex-col max-sm:items-center">
+        <div className="flex flex-col w-[600px] gap-2 max-sm:w-[300px]">
+          <h3 className="h3-bold">Wie der Ablauf stattfindet</h3>
           <p>
             Wenn das Wochenende endlich da ist, legen Sie lieber die Füße hoch,
             während ein Reinigungsdienst die Arbeit erledigt, als Ihre kostbaren
@@ -24,7 +24,7 @@ const HomeAboutUsSec2 = () => {
             direkt an!
           </p>
         </div>
-        <div className="w-[600px]">
+        <div className="w-[600px] max-sm:w-[300px]">
           <h4 className="h3-bold">Hausbetreuung</h4>
           <p>
             Ob Häuser oder Wohnungen, wir übernehmen die Arbeit und betreuen

@@ -11,7 +11,7 @@ const HomeServiceSec = () => {
         für Ihre Immobilie an. Ob Sie eine Hausbetreuung oder Winterdienste in
         der Saison benötigen, bei uns werden alle Wünsche berücksichtigt.
       </p>
-      <div className="flex gap-16 pt-36 pb-28 max-sm:flex-col max-md:flex-col max-md:gap-72 max-md:pt-24 max-sm:gap-72 max-sm:pt-24">
+      <div className="flex gap-16 pt-36 pb-28 max-xl:flex-col max-xl:gap-72 max-xl:pt-24">
         <PinContainer
           title="Hausbetreuung"
           href="/"

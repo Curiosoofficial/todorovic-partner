@@ -3,7 +3,7 @@ import React from 'react'
 
 const ParallaxBanner = () => {
   return (
-    <section className="bg-parallax1 bg-fixed flex items-center justify-evenly p-24">
+    <section className="bg-parallax1 bg-fixed flex items-center justify-evenly p-24 max-lg:flex-col max-lg:gap-20">
         <div className="flex flex-col justify-center items-center">
             <Image
                 src="/parallax/icons/rating.png" alt="rating" width={100} height={100} className="invert-colors pb-5"
