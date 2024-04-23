@@ -7,7 +7,7 @@ export const navLinks: Navlink[] = [
     },
     {
 
-      route: "/über-uns",
+      route: "/ueber-uns",
       label: "Über uns",
     },
     {

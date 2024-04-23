@@ -1,11 +1,11 @@
 import { footerInfo, footerLinks, navLinks } from "@/constants";
 import Link from "next/link";
 import React from "react";
-import Button from "./ui/spotify-button";
 
 const Footer = () => {
   return (
     <footer className="flex items-start gap-24 justify-center p-12 nav-index w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] max-md:flex-col">
+
       <div className="flex flex-col w-[250px] gap-5">
         <h4 className="h3-bold">
           Todorovic<span>Partner</span>
@@ -39,6 +39,7 @@ const Footer = () => {
           ))}
           
       </div>
+      
     </footer>
   );
 };
