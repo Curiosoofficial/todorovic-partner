@@ -24,7 +24,6 @@ export default function Home() {
 
       <HomeServiceSec />
 
-      <HomeAboutUsSec1 />
 
       <HomeAboutUsSec2 />
 
@@ -34,6 +33,7 @@ export default function Home() {
       
       <HomeAboutUsSec4 />
       
+      <HomeAboutUsSec1 />
       <Footer/>
 
     </main>

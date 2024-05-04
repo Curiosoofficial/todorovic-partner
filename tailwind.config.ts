@@ -62,7 +62,8 @@ module.exports = {
       backgroundImage: {
         "card-bg" : "url('/cardbg.jpg')",
         "parallax1" : "url(/parallax/parallax1.jpg)",
-        "bg2" : "url(/aboutUsSection/bg2.png)"
+        "bg2" : "url(/aboutUsSection/bg2.png)",
+        "bg3" : "url(/aboutUsSection/bg3.png)",
       },
       screens: {
         xs: "420px",

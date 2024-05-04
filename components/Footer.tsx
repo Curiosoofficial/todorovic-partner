@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="flex flex-col w-[250px] gap-5">
         <h4 className="h3-bold">
-          Todorovic<span>Partner</span>
+          Todorovic<span className="text-primary-500">Partner</span>
         </h4>
         <p>
           Wir bieten den besten Reinigungsservice in Wien! Kontaktieren Sie uns
@@ -39,6 +39,8 @@ const Footer = () => {
           ))}
           
       </div>
+
+  
       
     </footer>
   );

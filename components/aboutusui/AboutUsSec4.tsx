@@ -1,14 +1,10 @@
-import { benefits } from "@/constants";
-import Image from "next/image";
-import React from "react";
-import Button from "../ui/spotify-button";
+import Image from "next/image"
+import React from 'react'
+import Button from "../ui/spotify-button"
 
-const AboutUsSec1 = () => {
+const AboutUsSec4 = () => {
   return (
-    <section className="bg-bg3 flex flex-col justify-center items-center gap-5">
-      
-
-      <div className=" flex justify-center items-center gap-10 p-24 max-lg:flex-col max-sm:items-center">
+    <section className=" flex flex-row-reverse justify-center items-center gap-10 p-24 max-lg:flex-col max-sm:items-center">
         <Image
           src="/aboutUsSection/collage1.png"
           alt="collage"
@@ -28,9 +24,8 @@ const AboutUsSec1 = () => {
             <Button />
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
+      </section>
+  )
+}
 
-export default AboutUsSec1;
+export default AboutUsSec4
