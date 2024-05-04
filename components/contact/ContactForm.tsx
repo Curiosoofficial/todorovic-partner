@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import FormButton from "../ui/spotify-form-button";
 
 const ContactForm = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
   
   // @ts-ignore
   const sendEmail = (e) => {
