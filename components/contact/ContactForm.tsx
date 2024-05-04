@@ -1,9 +1,10 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import FormButton from "../ui/spotify-form-button";
 
 const ContactForm = () => {
+  const [message, setMessage] = useState('');
   const form = useRef<HTMLFormElement>(null);
   
   // @ts-ignore
@@ -18,12 +19,14 @@ const ContactForm = () => {
     .then(
       () => {
         console.log("SUCCESS!");
+        setMessage('Nachricht erfolgreich abgesendet!');
+        e.target.reset()
       },
       (error) => {
         console.log("FAILED...", error.text);
+        setMessage('Etwas ist schief gelaufen.');
       }
     );
-    e.target.reset()
   };
   return (
     <div className="flex gap-20 py-10">
@@ -54,11 +57,12 @@ const ContactForm = () => {
       <form className="flex flex-col gap-3" ref={form} onSubmit={sendEmail}>
         <h2 className="h2-bold text-primary-1 pb-10">Hinterlassen sie uns eine Nachricht</h2>
         
-        <input placeholder="Name" className="bg-[#f3fcf2] p-3 rounded-lg" type="text" name="user_name" required />
+        <input placeholder="Name" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="user_name" required />
         
-        <input placeholder="Email" className="bg-[#f3fcf2] p-3 rounded-lg" type="email" name="user_email" required />
-        <input placeholder="Betreff" className="bg-[#f3fcf2] p-3 rounded-lg" type="text" name="subject" required />
-        <textarea placeholder="Ihre Nachricht..." className="bg-[#f3fcf2] p-3 rounded-lg" name="message" required />
+        <input placeholder="Email" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="email" name="user_email" required />
+        <input placeholder="Betreff" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="subject" required />
+        <textarea placeholder="Ihre Nachricht..." className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" name="message" required />
+        {message && <p className="text-primary-2">{message}</p>}
         <div>
           <FormButton className="mt-4"/>
         </div>
