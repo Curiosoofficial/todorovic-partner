@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import ContactForm from "@/components/contact/ContactForm"
 import React from 'react'
 
@@ -12,6 +13,8 @@ const page = () => {
       </p>
 
       <ContactForm/>
+
+      <Footer/>
       
     </section>
   )
