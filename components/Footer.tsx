@@ -1,47 +1,58 @@
 import { footerInfo, footerLinks, navLinks } from "@/constants";
 import Link from "next/link";
 import React from "react";
+import Button from "./ui/spotify-button";
 
 const Footer = () => {
   return (
-    <footer className="flex items-start gap-24 justify-center p-12 nav-index w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] max-md:flex-col">
+    <footer className="w-full flex flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+      <div className="flex items-start gap-24 justify-center p-12 nav-index w-full  max-md:flex-col">
+        <div className="flex flex-col w-[350px] gap-5">
+          <h4 className="footer-bold">
+            Todorovic<span className="text-primary-500">Partner</span>
+          </h4>
+          <p className="paragraph-semibold font-spaceGrotesk">
+            Wir bieten den besten Reinigungsservice in Wien! Kontaktieren Sie
+            uns noch heute für ein Angebot!
+          </p>
+          <div>
+            <Button />
+          </div>
+        </div>
 
-      <div className="flex flex-col w-[250px] gap-5">
-        <h4 className="h3-bold">
-          Todorovic<span className="text-primary-500">Partner</span>
-        </h4>
-        <p>
-          Wir bieten den besten Reinigungsservice in Wien! Kontaktieren Sie uns
-          noch heute für ein Angebot!
-        </p>
-      </div>
+        <div className="flex flex-col w-[350px] gap-5">
+          <h4 className="footer-bold">Reinigungsservice Wien</h4>
+          <div className="flex flex-col gap-3">
+            {footerLinks.map((item) => (
+              <Link key={item.label} href={item.route} className="base-medium">
+                <p className="paragraph-semibold font-spaceGrotesk">
+                  {item.label}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
 
-      <div className="flex flex-col w-[250px] gap-5">
-        <h4 className="h3-bold">Reinigungsservice Wien</h4>
-        <div className="flex flex-col gap-3">
-          {footerLinks.map((item) => (
-            <Link key={item.label} href={item.route} className="base-medium">
-              <p>{item.label}</p>
-            </Link>
+        <div className="flex flex-col w-[350px] gap-5">
+          <h4 className="footer-bold">Kontaktieren Sie uns:</h4>
+          {footerInfo.map((item) => (
+            <div
+              key={item.label}
+              className="flex flex-col gap-3 paragraph-semibold font-spaceGrotesk"
+            >
+              <p>{item.adress}</p>
+              <p>{item.phone}</p>
+              <p>{item.mail}</p>
+              <p>{item.time}</p>
+            </div>
           ))}
         </div>
       </div>
 
-      <div className="flex flex-col w-[250px] gap-5">
-        <h4 className="h3-bold">Kontaktieren Sie uns:</h4>
-          {footerInfo.map((item) => (
-          <div key={item.label} className="flex flex-col gap-3">
-            <p>{item.adress}</p>
-            <p>{item.phone}</p>
-            <p>{item.mail}</p>
-            <p>{item.time}</p>
-          </div>
-          ))}
-          
+      <div className="flex items-start justify-center p-3 nav-index w-full bg-primary-500 text-white font-spaceGrotesk">
+          <p>© 2023 - Todorovic & Partner KG | Proudly made by <span className="font-bold border-b-2"><Link href="https://webdevbyluka.com/">Luka Stefanovic</Link></span></p>
       </div>
 
-  
-      
     </footer>
   );
 };

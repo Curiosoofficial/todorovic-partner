@@ -65,7 +65,7 @@ export const benefits = [
 export const footerInfo = [
   {
     label: "footerInfo",
-    adress: "MilanovaUlica 69, Viena 12318",
+    adress: "Hauptstrasse 117, Wien 1140",
     phone: "+43 660 5622209",
     mail: "todorovic@mail.com",
     time: "Mo-Fr: 9:00h - 17:00h",

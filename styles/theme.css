@@ -16,6 +16,10 @@
     @apply text-[84px] font-bold leading-[48px] tracking-tighter;
   }
 
+  .footer-bold {
+    @apply text-[24px] font-bold leading-[26px];
+  }
+
   .h1-bold {
     @apply text-[64px] font-bold leading-[42px] tracking-tighter;
   }
