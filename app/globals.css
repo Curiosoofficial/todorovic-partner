@@ -177,6 +177,10 @@ code {
   z-index: 1000;
 }
 
+.toggle-index {
+  z-index: 1050;
+}
+
 .footer-index {
   z-index: 900;
 }
