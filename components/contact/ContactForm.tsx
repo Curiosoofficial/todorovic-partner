@@ -29,7 +29,7 @@ const ContactForm = () => {
     );
   };
   return (
-    <div className="flex gap-20 py-10">
+    <div className="flex gap-20 pt-10 pb-24">
       <div className="flex flex-col justify-center items-start">
         <h2 className="h2-bold text-primary-1 pb-10">Zentrale Wien</h2>
         <div className="flex flex-col gap-1 py-2">

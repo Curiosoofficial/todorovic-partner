@@ -9,7 +9,7 @@ const ParallaxBanner = () => {
                 src="/parallax/icons/rating.png" alt="rating" width={100} height={100} className="invert-colors pb-5"
             />
             <span className="h2-bold text-primary-500">300+</span>
-            <p className="h3-bold pt-3 text-white">Glückliche Kunden</p>
+            <p className="h3-bold pt-3 text-white font-spaceGrotesk text-center">Glückliche Kunden</p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
@@ -17,7 +17,7 @@ const ParallaxBanner = () => {
                 src="/parallax/icons/certificate.png" alt="certificate" width={100} height={100} className="invert-colors pb-5"
             />
             <span className="h2-bold text-primary-500">100%</span>
-            <p className="h3-bold pt-3 text-white">Service Garantie</p>
+            <p className="h3-bold pt-3 text-white font-spaceGrotesk text-center">Service Garantie</p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
@@ -25,7 +25,7 @@ const ParallaxBanner = () => {
                 src="/parallax/icons/experience-transfer.png" alt="worker" width={100} height={100} className="invert-colors pb-5"
             />
             <span className="h2-bold text-primary-500">30+</span>
-            <p className="h3-bold pt-3 text-white">Mitarbeiter</p>
+            <p className="h3-bold pt-3 text-white font-spaceGrotesk text-center">Mitarbeiter</p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
@@ -33,7 +33,7 @@ const ParallaxBanner = () => {
                 src="/parallax/icons/busy.png" alt="time" width={100} height={100} className="invert-colors pb-5"
             />
             <span className="h2-bold text-primary-500">700+</span>
-            <p className="h3-bold pt-3 text-white">Abgeschlossene Aufträge</p>
+            <p className="h3-bold pt-3 text-white font-spaceGrotesk text-center">Abgeschlossene Aufträge</p>
         </div>
     </section>
   )

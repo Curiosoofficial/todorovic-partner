@@ -14,7 +14,7 @@ const TeamCards = () => {
         />
 
         <h3 className="h3-bold text-primary-1">Milan Todorovic</h3>
-        <p className="text-primary-2">Geschäftsführung</p>
+        <p className="text-primary-2 font-spaceGrotesk">Geschäftsführung</p>
     </div>
 
     <div className="flex flex-col justify-center items-center gap-1">
@@ -27,7 +27,7 @@ const TeamCards = () => {
         />
 
         <h3 className="h3-bold text-primary-1">Valerija Phillip</h3>
-        <p className="text-primary-2">Support</p>
+        <p className="text-primary-2 font-spaceGrotesk">Support</p>
     </div>
     </div>
   )

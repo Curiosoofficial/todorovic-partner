@@ -96,7 +96,7 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="shadow-[0_3px_10px_rgb(0,0,0,0.5)] user-select-none bg-gradient-to-b from-green-600 to-green-800 rounded-xl -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-white base-medium">
+              <span className=" relative z-20 text-sm leading-[1.6] text-white base-medium font-spaceGrotesk">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">

@@ -22,7 +22,7 @@ const Navbar = () => {
 
           return (
             <Link key={item.label} href={item.route} className={`pl-10 base-semibold ${isActive ? "text-primary-500" : ""}`}>
-              <p className="font-spaceGrotesk">{item.label}</p>
+              <p className="base-bold font-spaceGrotesk">{item.label}</p>
             </Link>
           );
         })}

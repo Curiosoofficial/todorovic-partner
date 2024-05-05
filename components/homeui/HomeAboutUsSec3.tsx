@@ -15,7 +15,7 @@ const HomeAboutUsSec3 = () => {
 
       <div className="flex flex-col w-[600px] max-sm:w-[300px] max-sm:text-center max-md:w-[500px]">
         <h3 className="h1-bold pb-5 pt-[5px] text-primary-500 leading-none max-sm:h2-bold">WARUM WIR</h3>
-        <p className="pb-5 paragraph-regular text-primary-2">
+        <p className="pb-5 paragraph-regular text-primary-2 font-spaceGrotesk">
           Hinter unserer unerschütterlichen Verpflichtung zu Spitzenleistungen
           stehen zahlreiche Schlüsselmerkmale, die nicht nur unsere Identität
           prägen, sondern auch deutlich hervorheben, was uns als
@@ -25,7 +25,7 @@ const HomeAboutUsSec3 = () => {
         {benefits.map((benefit) => (
           <div className="flex flex-col pb-3" key={benefit.title}>
             <h4 className="h3-bold text-primary-1">{benefit.title}</h4>
-            <p className="paragraph-regular text-primary-2">{benefit.desc}</p>
+            <p className="paragraph-regular text-primary-2 font-spaceGrotesk">{benefit.desc}</p>
           </div>
         ))}
         <div className="mt-5">

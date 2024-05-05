@@ -63,7 +63,7 @@ export const PinContainer = ({
                 <div className="text-center flex flex-col items-center gap-1">
                   <h3 className="h2-semibold pb-3 text-primary-1">{title}</h3>
                   {hausbetreuung.map((item) => (
-                    <span className="flex gap-1" key={item}>
+                    <span className="flex gap-1 font-spaceGrotesk" key={item}>
                       <Image
                         src="/check.png"
                         width={20}
@@ -84,7 +84,7 @@ export const PinContainer = ({
                 <div className="text-center flex flex-col items-center gap-1">
                   <h3 className="h2-semibold pb-3 text-primary-1">{title}</h3>
                   {kommerziellereining.map((item) => (
-                    <span className="flex gap-1" key={item}>
+                    <span className="flex gap-1 font-spaceGrotesk" key={item}>
                       <Image
                         src="/check.png"
                         width={20}
@@ -105,7 +105,7 @@ export const PinContainer = ({
                 <div className="text-center flex flex-col items-center gap-1">
                   <h3 className="h2-semibold pb-3 text-primary-1">{title}</h3>
                   {speziellereinigung.map((item) => (
-                    <span className="flex gap-1" key={item}>
+                    <span className="flex gap-1 font-spaceGrotesk" key={item}>
                       <Image
                         src="/check.png"
                         width={20}
