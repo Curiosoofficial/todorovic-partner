@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="w-full flex flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-      <div className="flex items-start gap-24 justify-center p-12 footer-index w-full  max-md:flex-col">
+      <div className="flex items-start gap-24 justify-center p-12 footer-index w-full max-md:py-24 max-md:flex-col">
         <div className="flex flex-col w-full max-w-[350px] gap-5">
           <h4 className="footer-bold">
             Todorovic<span className="text-primary-500">Partner</span>

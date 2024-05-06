@@ -35,7 +35,7 @@ const HomeAboutUsSec1 = () => {
             </div>
           </div>
         </div>
-        <Button className="absolute top-[78%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 max-sm:top-[82%] max-md:top-[75%]" />
+        <Button className="absolute top-[78%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 max-sm:top-[83%] max-md:top-[75%]" />
       </BackgroundGradientAnimation>
     </section>
   );

@@ -29,8 +29,8 @@ const ContactForm = () => {
     );
   };
   return (
-    <div className="flex gap-20 pt-10 pb-24">
-      <div className="flex flex-col justify-center items-start">
+    <div className="flex gap-20 pt-10 pb-24 max-lg:flex-col">
+      <div className="flex flex-col justify-center items-start max-md:items-center max-md:text-center">
         <h2 className="h2-bold text-primary-1 pb-10">Zentrale Wien</h2>
         <div className="flex flex-col gap-1 py-2">
           <h3 className="h3-bold text-primary-1">Adresse</h3>
@@ -54,14 +54,14 @@ const ContactForm = () => {
       </div>
 
       
-      <form className="flex flex-col gap-3" ref={form} onSubmit={sendEmail}>
-        <h2 className="h2-bold text-primary-1 pb-10">Hinterlassen sie uns eine Nachricht</h2>
+      <form className="flex flex-col gap-3 max-md:items-center max-md:max-w-[350px]" ref={form} onSubmit={sendEmail}>
+        <h2 className="h2-bold text-primary-1 pb-10 max-md:text-center">Hinterlassen sie uns eine Nachricht</h2>
         
-        <input placeholder="Name" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="user_name" required />
+        <input placeholder="Name" className="w-full bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="user_name" required />
         
-        <input placeholder="Email" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="email" name="user_email" required />
-        <input placeholder="Betreff" className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="subject" required />
-        <textarea placeholder="Ihre Nachricht..." className="bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" name="message" required />
+        <input placeholder="Email" className="w-full bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="email" name="user_email" required />
+        <input placeholder="Betreff" className="w-full bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" type="text" name="subject" required />
+        <textarea placeholder="Ihre Nachricht..." className="w-full bg-[#f3fcf2] p-3 pl-5 text-primary-2 placeholder:text-primary-2 rounded-3xl" name="message" required />
         {message && <p className="text-primary-2">{message}</p>}
         <div>
           <FormButton className="mt-4"/>

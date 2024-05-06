@@ -6,7 +6,7 @@ const HomeServiceSec = () => {
   return (
     <section className="card-section flex flex-col justify-center items-center gap-10 pt-24 pb-32">
       <h2 className="h1-bold text-primary-500 max-sm:h2-bold">UNSER SERVICE</h2>
-      <p className="max-w-2xl px-5 text-center base-medium text-primary-2 max-sm:paragraph-medium font-spaceGrotesk">
+      <p className="max-w-2xl px-5 text-center  text-primary-2 max-sm:paragraph-medium font-spaceGrotesk">
         Wir bieten verschiedenste Arten von Reinigungen sowie Dienstleistungen
         für Ihre Immobilie an. Ob Sie eine Hausbetreuung oder Winterdienste in
         der Saison benötigen, bei uns werden alle Wünsche berücksichtigt.

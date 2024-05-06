@@ -31,9 +31,9 @@ export default function Home() {
 
       <HomeAboutUsSec3 />
       
+      <HomeAboutUsSec1 />
       <HomeAboutUsSec4 />
       
-      <HomeAboutUsSec1 />
       <Footer/>
 
     </main>
